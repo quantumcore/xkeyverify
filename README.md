@@ -1,7 +1,11 @@
 # xkeyverify
-Simple Key Verification system for client side applications.
+XKEYVERIFY is a really simple Key verification system. You can use it for various purposes. For example, You need to create a Trial Version of your Application. You can setup XKEYVERIFY and create a key. Your Program would send a GET Request to the key and see if it's valid. If it is, Continue, Else, Quit.
+
+---
 
 **BUGS** : [View current bugs](https://github.com/quantumcored/xkeyverify/blob/master/BUGS.md)
+
+---
 
 ## Setting up (Example)
 
@@ -19,12 +23,19 @@ INSERT INTO `account` (`id`, `username`, `password`) VALUES (1, 'admin', '$2y$10
 ```
 ![example-sql](https://github.com/quantumcored/xkeyverify/blob/master/images/sql.PNG)
 
+---
+
 Once that's done, You can go on to your server and login using default credentials ``admin:password``.
 
 ![login](https://github.com/quantumcored/xkeyverify/blob/master/images/login.PNG)
 
+---
+
 After you login, You should see this
+
 ![cp](https://github.com/quantumcored/xkeyverify/blob/master/images/cp.PNG)
+
+---
 
 So no keys are created by default, Lets say I have to create an application that I want to give to my friend and I want it to stop working whenever I want. So we can create a key for this.
 
@@ -32,16 +43,24 @@ Click the button **Create new Key**
 and enter your desired name and key and a date.
 ![newkey](https://github.com/quantumcored/xkeyverify/blob/master/images/keycreate.PNG)
 
+---
+
 In this case I am creating a key with the name of **mainkey**. Note, The name is important, you will see.
 
 Once the key is created, It should look something like this.
 ![keydone](https://github.com/quantumcored/xkeyverify/blob/master/images/keydone.PNG)
 
+---
+
 As you can see, IT says **Activated : False**. The key is created but not activated. In order to use it, We activate it.
 ![keymanage](https://github.com/quantumcored/xkeyverify/blob/master/images/keymanage.PNG)
 
+---
+
 After it's activated it, The server side setup for your Verification system is done.
 ![done](https://github.com/quantumcored/xkeyverify/blob/master/images/keyactivate.PNG)
+
+---
 
 ### Creating the Application
 
