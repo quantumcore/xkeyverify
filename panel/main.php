@@ -37,7 +37,7 @@ if (!isset($_SESSION['loggedin'])) {
 				$date = date("Y-m-d", time());
 				$expiry = strtotime($expiry_date);
 				$dtwo = strtotime($date);
-				if($expiry >= $dtwo) {
+				if($expiry == $dtwo) {
 					// If today is expiry date
 					$contents = file_get_contents("keys");	
 					$contents = str_replace($expiry_date, 'EXPIRED', $contents);
