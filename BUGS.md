@@ -1,2 +1,2 @@
 ### BUGS
-- Auto Expire doesn't work.
+- Auto Expire doesn't work as expected.
