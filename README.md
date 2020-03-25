@@ -1,7 +1,7 @@
 # xkeyverify
 Simple Key Verification system for client side applications.
 
-**BUGS ** : [View current bugs](https://github.com/quantumcored/xkeyverify/blob/master/BUGS.md)
+**BUGS** : [View current bugs](https://github.com/quantumcored/xkeyverify/blob/master/BUGS.md)
 
 ## Setting up (Example)
 
